@@ -4,6 +4,7 @@ const List = ({ people, setPeople }) => {
   console.log(people);
   const deleteone = id => {
     setPeople(people.filter(person => person.id !== id));
+    //filter function
   };
   return (
     <section>
